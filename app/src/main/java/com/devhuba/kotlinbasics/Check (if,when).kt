@@ -4,7 +4,7 @@ fun main() {
     val heightPerson1 = 170
     val heightPerson2 = 189
 
-    if(heightPerson1 > heightPerson2){
+    if (heightPerson1 > heightPerson2){
         println("use raw force")
     }else if(heightPerson2 == heightPerson1){
         println("use technique")
