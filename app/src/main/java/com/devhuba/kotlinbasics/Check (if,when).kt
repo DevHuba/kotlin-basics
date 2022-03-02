@@ -46,6 +46,16 @@ fun main() {
         in 6..8 -> println("Summer")
         in 9..11 -> println("Fall")
         in 3 downTo 1 -> println("Winter")  // From 3 to 1 in opposite direction
+        3, 2, 1 -> println("Winter2")  // From 3 to 1 in opposite direction
         else -> println("Invalid Season")
     }
+
+    val x: Any = 13.37
+    val result = when (x) {
+        is Int -> println("$x is an Int")
+        is Double -> println("$x is a Double")
+        !is String -> println("$x is not a String")
+        else -> println("$x is none of the above")
+    }
+    println("$x $result")
 }
