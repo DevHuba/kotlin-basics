@@ -6,4 +6,7 @@ fun main() {
         println("Loop with i $i")
         i++
     }
+
+    //Do while loop
+
 }
