@@ -24,6 +24,13 @@ fun main() {
         }
     }
 
+    //Do while loop
+    var x = 15
+    do {
+        print("x -> $x ")
+        x--
+    } while (x > 10)
+
     //For loops
     for (iter in 1..3) {
         print("a -> ${iter} || ")
@@ -39,10 +46,22 @@ fun main() {
         print("c -> ${iter3} ")
     }
 
-    //Do while loop
-    var x = 15
-    do {
-        print("x -> $x ")
-        x--
-    } while (x > 10)
+    //For loop with break
+    for (i in 1..20) {
+        print("$i ")
+        if (i / 2 == 5) {
+            break
+
+        }
+    }
+    println("Escaped from for loop")
+
+    //For loop with continue
+    for (i in 1..20) {
+        if (i / 2.0 == 5.0) {
+            continue
+        }
+        print("$i ")
+    }
+
 }
