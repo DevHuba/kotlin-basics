@@ -1,4 +1,4 @@
-package com.devhuba.kotlinbasics.EX
+package com.devhuba.kotlinbasics.ex
 
 fun main() {
     val mobile1 = MobilePhone("Android", "Nokia", "3210")

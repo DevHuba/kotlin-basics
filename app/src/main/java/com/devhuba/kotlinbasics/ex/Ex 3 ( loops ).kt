@@ -1,4 +1,4 @@
-package com.devhuba.kotlinbasics.EX
+package com.devhuba.kotlinbasics.ex
 
 // Create loop that iterates each second numbers
 // from 100 to 0
